@@ -653,7 +653,7 @@ public class VerticalStepperFormLayout extends RelativeLayout implements View.On
         });
 
         AppCompatButton nextButton = (AppCompatButton) stepLayout.findViewById(R.id.next_step);
-        nextButton.setVisibility(defaultNextButtonEnabled ? VISIBLE : INVISIBLE);
+        nextButton.setVisibility(defaultNextButtonEnabled ? VISIBLE : GONE);
         if (defaultNextButtonEnabled) {
             setButtonColor(nextButton,
                 buttonBackgroundColor, buttonTextColor, buttonPressedBackgroundColor, buttonPressedTextColor);
